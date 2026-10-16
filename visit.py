@@ -2,7 +2,7 @@ import os, random, time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-URL = os.getenv("TARGET_URL", "https://example.com")
+URL = os.getenv("TARGET_URL", "https://qemu-vm-sshx-docker.configfars-vps.blitz.cloud")
 WINDOW_MIN = 30
 VISITS = 3
 
