@@ -11,5 +11,5 @@ RUN pip install --no-cache-dir selenium
 WORKDIR /app
 COPY visit.py .
 
-ENV TARGET_URL=https://example.com
+ENV TARGET_URL=https://qemu-vm-sshx-docker.configfars-vps.blitz.cloud
 CMD ["python", "-u", "visit.py"]
